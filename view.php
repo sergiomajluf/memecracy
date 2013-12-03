@@ -125,8 +125,15 @@ $("#imgAnimate").hover(
 				
 
 				<h4>Share on Facebook</h4>
+<!--
 				<iframe
 					src="//www.facebook.com/plugins/like.php?href=http://<?php echo $url; ?>&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"
+					scrolling="no" frameborder="0"
+					style="border: none; overflow: hidden; width: 450px; height: 21px;"
+					allowTransparency="true"></iframe>
+-->
+				<iframe
+					src="//www.facebook.com/plugins/like.php?href=http://memecracy.co.s60114.gridserver.com/&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"
 					scrolling="no" frameborder="0"
 					style="border: none; overflow: hidden; width: 450px; height: 21px;"
 					allowTransparency="true"></iframe>
