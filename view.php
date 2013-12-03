@@ -48,10 +48,6 @@ $("#imgAnimate").hover(
 <body id="viewMeme">
 <?php include_once("navbar.php"); ?>
 
-    <div id="headerContainer">
-        <div id="header"><a href="index.php"><img id="imgAnimate" src="static/i/memecracy-logo-small.png" alt="Memecracy"></a></div>
-    </div>
-
 	<?php 
 	function isImage($filename)
 	{

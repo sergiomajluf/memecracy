@@ -20,7 +20,7 @@
 <body id="popular">
 <?php include_once("navbar.php"); ?>
     <div class="container">
-	<h1>Popular Memes</h1>
+	<h1>Memes populares</h1>
 	
   
 

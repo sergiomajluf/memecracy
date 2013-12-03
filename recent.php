@@ -19,8 +19,8 @@
 
 <body id="recent">
 <?php include_once("navbar.php"); ?>
-    <div class="container">
-	<h1>Recent Memes</h1>
+<div class="container">
+<h1>Memes recientes</h1>
   
 
 <?php
