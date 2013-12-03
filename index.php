@@ -71,16 +71,18 @@ include_once("memesettings.php");
 <div id="acerca">
     <div class="story">
     <div class="colIzq">
-        <p>La propaganda politica está llena de mensajes prefabricados que pretenden representarnos. Frases, ideologías y declaraciones envasadas que intentan reflejar nuestros pensamientos y necesidades manifestándose en afiches, lienzos y pantallas que invaden nuestro entorno intentando convencernos de que estamos siendo representados. Historicamente ha sido así… pero hoy nos podemos permitir declarar nuestra propia propaganda.</p>
+        <p>La propaganda política está llena de mensajes prefabricados que pretenden representarnos.
+Frases, ideologías y declaraciones envasadas invaden nuestro entorno intentando convencernos de que estamos siendo representados. Históricamente ha sido así… pero hoy nos podemos permitir declarar nuestra propia propaganda.</p>
     </div>
 
     <div class="colDer">
         <ul>
-            <li>MEMECRACY invierte el modelo, dejándolo en manos de la opinion pública.</li>
+            <li>MEMECRACY invierte el modelo, dejándolo en manos de la opinión pública.</li>
             <li>MEMECRACY es la voz del pueblo hacia sus candidatos a la presidencia.</li>
             <li>MEMECRACY te recuerda que ellos gobiernan para nosotros y gracias a nosotros.</li>
-            <li>Que no pongan palabras en ti, pon tus propias palabras… y difúndela. Power to the people!</li>
         </ul>
+        <p>Que no pongan palabras en tu boca, pon tus propias palabras… y difúndela.
+Bienvenidos a la MEMECRACIA, Power to the people!</p>
     </div>
     </div>
 <a href="http://www.terrorista.co" title="Un proyecto TERRORISTA" class="terroristaLink">Un proyecto TERRORISTA</a>
