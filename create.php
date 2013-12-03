@@ -45,11 +45,7 @@ $(document).ready(function() {
 </head>
 
 <body id="createMeme">
-    <?php include_once("navbar.php"); ?>
-
-    <div id="headerContainer">
-        <div id="header"><a href="/"><img id="imgAnimate" src="static/i/memecracy-logo-small.png" alt="Memecracy"></a></div>
-    </div>
+<?php include_once("navbar.php"); ?>
 
 <div class="container">
     <div class="row">

@@ -22,7 +22,8 @@ p {
 }
 
 h1, h2, h3 {
-	font-family: average;
+	font-family: "Average Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color: #fff;
 }
 
 img {
@@ -34,15 +35,15 @@ img {
 	top:0px;
 	width: 100%;
 	z-index: 10;
+	background: url(i/power-to-the-people.png) no-repeat center bottom;
+
 }
 
 #header {
 	height: 200px;
 	margin: 0 auto;
 	padding: 60px 0 0 0;
-	text-align: center;
-	background: url(i/power-to-the-people.png) no-repeat center bottom;
-	
+	text-align: center;	
 }
 
 #header img {
@@ -59,7 +60,50 @@ img {
 	background: url(i/power-to-the-people.png) no-repeat center top;
 	
 }
+#headerMenu {
+	height: 91px;
+	width: 950px;
+	margin: 0 auto;
+	padding: 60px 0 0 0;
+	text-align: center;
+	background: url(i/power-to-the-people-inside.png) no-repeat center bottom;	
+}
 
+#menu li.recentLink {
+	float: right;
+	font: 16px "Average Sans", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin: 0 20px 0 0;	
+	/*background-color: rgb(67, 116,176);*/
+	padding: 20px 20px 21px 20px;
+
+}
+#menu li.recentLink a{
+	color: #fff;
+	font-weight: bold;
+}
+#menu li.recentLink a:hover{
+	text-decoration: none;
+	color: #274669;
+}
+
+body#recent #recentMemes {
+	background-color: rgb(229, 54,64);
+}
+
+body#popular #popularMemes {
+	background-color: rgb(229, 54,64);
+}
+
+#headerMenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+#headerMenu ul li {
+	display: inline-block;
+}
 #createMeme #header a img {
 	/*float: left;*/
 	display: inline-block;

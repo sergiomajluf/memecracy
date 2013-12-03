@@ -42,7 +42,15 @@ $(function() {
 </head>
 
 <body>
-<?php include_once("navbar.php"); ?>
+<?php include_once("analyticstracking.php") ?>
+<?php
+if(file_exists("install.php"))
+{
+	die('<p style="padding: 5px; background-color: #EEFF57; border: 2px solid black;"><strong>Important:</strong> Delete install.php to complete installation.</p>');
+}
+ 
+include_once("memesettings.php"); 
+?>
 <div id="headerContainer">
 	<div id="header">
 		<img id="imgAnimate" src="static/i/memecracy-logo-02.png" alt="Memecracy">

@@ -1,37 +1,23 @@
-<?php
-/*
-
-Meme Maker, Copyright Devadutta Ghat, 2012
-
-*/
-?>
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-<?php include_once("header.php"); ?>
-    <!-- Le styles -->
+<head>
+	<?php include_once("header.php"); ?>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="static/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+</script>
     <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      .container {
+        padding-top: 140px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+</head>
 
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-  </head>
-
-<body>
+<body id="recent">
 <?php include_once("navbar.php"); ?>
     <div class="container">
 	<h1>Recent Memes</h1>
