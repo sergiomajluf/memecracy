@@ -7,7 +7,7 @@ Meme Maker, Copyright Devadutta Ghat, 2012
 // Name that appears in logo and title
 $sitename = "MEMECRACY";
 // Name that appears in the watermark
-$watermark = "terrorista.co";
+$watermark = "http://www.memecracy.co";
 
 //Number of memes to be shown on "recent" page
 $memesPerPage = 100;
