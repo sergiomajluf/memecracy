@@ -81,7 +81,7 @@ $(document).ready(function() {
                 <!--             </form> -->
 <br/><br/>
             <form id="createimg" action="view.php" method="post">
-                <p><button id="cands" class="btn-large btn-primary" type="button">Crear MEME</button> <input type="hidden" id="imgdata" name="imgdata"></p>
+                <p><button id="cands" class="btn-large btn-primary" type="button">CreaMEME</button> <input type="hidden" id="imgdata" name="imgdata"></p>
             </form>
         </div>
     </div>
