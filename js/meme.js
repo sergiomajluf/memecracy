@@ -8,10 +8,10 @@ var bgImage,stage,stageW,stageH,shapesLayer;
 
 var gblFillColor = "#fff";
 var gblStrokeColor = "#fff";
-var gblFontFamily = 'Verdana';
+var gblFontFamily = 'Impact';
 var gblFontSize = 32;
-var gblOutlineSize = 1;
-var gblStrokeWidth = 1;
+var gblOutlineSize = 0;
+var gblStrokeWidth = 0;
 
 var heightStage;
 
@@ -273,6 +273,7 @@ $(function() {
 		gblFontFamily = "Arial";
 		gblStrokeWidth = 0;
 		addText(watermark,bgImage.width - getTextWidth(watermark)  ,bgImage.height  - getSimpleTextHeight() - 5);
+		console.log(bgImage.height  - getSimpleTextHeight());
 		//addText(watermark,100,100);
 		
 		stage.toDataURL({
