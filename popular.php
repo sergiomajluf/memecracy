@@ -40,7 +40,7 @@ $files = array();
 $res = $memedb->get_results("select meme_id, count(*) as points from $dbtable where 1 group by meme_id order by points DESC");
 
 if(!$res)
-	print "No hay memes populares todavía";
+	print "<h2>No hay memes populares todavía.</h2>";
 	print "Elige uno y <a href='/recent.php' title='Vota por tus favoritos'>vota por tus favoritos</a>";
 
 foreach($res as $befEntry)
