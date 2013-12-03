@@ -14,7 +14,9 @@ include_once("memesettings.php");
 -->
         <ul id="menu">
 			<li class="homeLink"><a href="/"><img id="imgAnimate" src="static/i/memecracy-logo-small.png" alt="Memecracy"></a></li>
+<!--
 			<li id="customMemes" class="recentLink"><a href="/" title="Hecho a mano">a mano</a></li>
+-->
 			<li id="recentMemes" class="recentLink"><a href="recent.php" title="Meme recientes">recientes</a></li>
 			<li id="popularMemes" class="recentLink"><a href="popular.php" title="Meme populares">+ populares</a></li>
 		</ul>
