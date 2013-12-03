@@ -21,29 +21,29 @@ else
 
 <html lang="en">
 <head>
-    <?php include_once("header.php"); ?>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel='stylesheet' href="css/spectrum.css" type="text/css">
-<!--     <link rel='stylesheet' href="css/ajaxupload.css" type="text/css"> -->
+	<?php include_once("header.php"); ?>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="static/style.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
 </script>
-    <script type="text/javascript">
+
+
+
+<script type="text/javascript">
 $(document).ready(function() {
-    $("#imgAnimate").hover(
-        function() {
-            $(this).attr("src", "static/i/memecracy-logo-multiple-small.gif");
-        }, function(){
-            $(this).attr("src", "static/i/memecracy-logo-small.png");
-        });
+$("#imgAnimate").hover(
+    function() {
+        $(this).attr("src", "static/i/memecracy-logo-multiple-small.gif");
+    }, function(){
+        $(this).attr("src", "static/i/memecracy-logo-small.png");
     });
+});
 
-    </script>
+</script>
 
-    <title></title>
 </head>
-
 
 <body id="viewMeme">
 <?php include_once("navbar.php"); ?>
