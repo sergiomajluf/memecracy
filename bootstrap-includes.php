@@ -1,0 +1,12 @@
+</script><script src="js/bootstrap-transition.js" type="text/javascript">
+</script><script src="js/bootstrap-alert.js" type="text/javascript">
+</script><script src="js/bootstrap-modal.js" type="text/javascript">
+</script><script src="js/bootstrap-dropdown.js" type="text/javascript">
+</script><script src="js/bootstrap-scrollspy.js" type="text/javascript">
+</script><script src="js/bootstrap-tab.js" type="text/javascript">
+</script><script src="js/bootstrap-tooltip.js" type="text/javascript">
+</script><script src="js/bootstrap-popover.js" type="text/javascript">
+</script><script src="js/bootstrap-button.js" type="text/javascript">
+</script><script src="js/bootstrap-collapse.js" type="text/javascript">
+</script><script src="js/bootstrap-carousel.js" type="text/javascript">
+</script><script src="js/bootstrap-typeahead.js" type="text/javascript">

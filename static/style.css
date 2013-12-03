@@ -123,6 +123,16 @@ img {
 	margin: 0 auto;
 }
 
+#acerca a.terroristaLink {
+	display: block;
+	position: relative;
+	bottom: -30px;
+	height: 80px;
+	width: 300px;
+	margin: 0 auto;
+	text-indent: -9999px;
+}
+
 .colIzq {
 	display: inline-block;
 	width: 400px;
@@ -158,8 +168,9 @@ img {
 	margin-top: 150px;
 }
 #memeArea {
-background-color: rgb(67, 116,176);
-padding: 20px 20px 20px 20px;
+/*background-color: rgb(67, 116,176);
+padding: 20px 20px 20px 20px;*/
+margin-right:10px;
 }
 
 #memeControls{

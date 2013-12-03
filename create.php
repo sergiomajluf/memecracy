@@ -91,10 +91,9 @@ $(document).ready(function() {
     </div>
 </div><!-- /container -->
 
-    <div id="heightStage" style="display: none;"></div><!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript">
+<div id="heightStage" style="display: none;"></div>
+    
+<script type="text/javascript">
 <?php
 
         include_once("memesettings.php");
@@ -127,22 +126,11 @@ $(document).ready(function() {
         print "var watermark =\"$watermark\";";
 
     ?>
-    </script><script src="js/jquery.js" type="text/javascript">
-</script><script src="js/kinetic.min.js" type="text/javascript">
-</script><script src="js/meme.js" type="text/javascript">
-</script><script src="js/spectrum.js" type="text/javascript">
-</script><script src="js/bootstrap-transition.js" type="text/javascript">
-</script><script src="js/bootstrap-alert.js" type="text/javascript">
-</script><script src="js/bootstrap-modal.js" type="text/javascript">
-</script><script src="js/bootstrap-dropdown.js" type="text/javascript">
-</script><script src="js/bootstrap-scrollspy.js" type="text/javascript">
-</script><script src="js/bootstrap-tab.js" type="text/javascript">
-</script><script src="js/bootstrap-tooltip.js" type="text/javascript">
-</script><script src="js/bootstrap-popover.js" type="text/javascript">
-</script><script src="js/bootstrap-button.js" type="text/javascript">
-</script><script src="js/bootstrap-collapse.js" type="text/javascript">
-</script><script src="js/bootstrap-carousel.js" type="text/javascript">
-</script><script src="js/bootstrap-typeahead.js" type="text/javascript">
+
+<?php
+	include_once("footer.php");
+	//include_once("bootstrap_includes.php");
+?>
 </script>
 </body>
 </html>

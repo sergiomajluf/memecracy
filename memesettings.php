@@ -31,15 +31,15 @@ $dbtable = 'meme_maker_ratings';
 // Database Settings
 
 // Your MySQL Database username
-$dbuname = "root";
+$dbuname = "bb8aed6dfeb5db";
 
 // Your MySQL DB Password
-$dbpass  = '';
+$dbpass  = '9229d5dd';
 
 // Your MySQL DB Name
-$dbname  = 'memecracy';
+$dbname  = 'heroku_7e13ead7bedd1a3';
 
 // Your MySQL DB Host
-$dbhost  = 'localhost';
+$dbhost  = 'parse_url(getenv("CLEARDB_DATABASE_URL")';
 
 ?>

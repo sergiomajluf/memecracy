@@ -15,7 +15,7 @@ $(document).ready(function() {
 	    function() {
 	    	$(this).attr("src", "static/i/memecracy-logo-multiple.gif");
 	    }, function(){
-	        $(this).attr("src", "static/i/memecracy-logo-01.png");
+	        $(this).attr("src", "static/i/memecracy-logo-02.png");
 	    });
 });
 
@@ -45,7 +45,7 @@ $(function() {
 <?php include_once("navbar.php"); ?>
 <div id="headerContainer">
 	<div id="header">
-		<img id="imgAnimate" src="static/i/memecracy-logo-01.png" alt="Memecracy">
+		<img id="imgAnimate" src="static/i/memecracy-logo-02.png" alt="Memecracy">
 	</div>
 </div>
 
@@ -75,7 +75,8 @@ $(function() {
         </ul>
     </div>
     </div>
-    <p>
+<a href="http://www.terrorista.co" title="Un proyecto TERRORISTA" class="terroristaLink">Un proyecto TERRORISTA</a>
+
 </div>
 </body>
 </html>
