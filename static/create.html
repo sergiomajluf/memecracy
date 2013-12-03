@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Memecracy</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function()
+    {
+    $("#imgAnimate").hover(
+        function() {
+        	$(this).attr("src", "i/memecracy-logo-multiple-small.gif");
+        }, function(){
+            $(this).attr("src", "i/memecracy-logo-small.png");
+        });
+    });       
+    
+ 
+    </script>
+    
+
+
+</head>
+
+<body>
+    <div id="headerContainer">
+    	<div id="headerInside">
+		<a href="/" title="Váyase pa la home"><img id="imgAnimate" src="i/memecracy-logo-small.png" alt="Memecracy"></a>
+	</div>
+    </div>
+
+    <div id="memeCreator">
+		<div class="colIzq">
+		<!-- Span 4 start -->
+			<div class="span4">
+				<h4>Add Caption</h4>
+
+				<form>
+					<br>Font Size<br> <select id="fontsizesel">
+						<option value="18">18pt</option>
+						<option value="24">24pt</option>
+						<option value="32" selected>32pt</option>
+						<option value="48">48pt</option>
+						<option value="72">72pt</option>
+						<option value="144">144pt</option>
+					</select> <br> <br> Font Color <br> <input type='text' id="custom"
+						value="#ffffff" /><br> Outline Color<br> <input type='text'
+						id="strokesel" value="#000000" /><br>
+					<hr>
+					<br>Caption 1 <br>
+
+					<textarea id="tc1">[Insert Caption]</textarea>
+					<br>
+					<button type="button" class="btn btn-success" id="cap1">Update</button>
+					<button type="button" class="btn btn-danger" id="rcap1">Remove</button>
+					<br> <br>Caption 2 <br>
+					<textarea id="tc2">[Insert Caption]</textarea>
+					<br>
+					<button type="button" class="btn btn-success" id="cap2">Update</button>
+					<button type="button" class="btn btn-danger" id="rcap2">Remove</button>
+					<hr>
+					<br>
+				</form>
+
+				<form id="createimg" action="view.php" method="post">
+					<p>
+						<button id="cands" class="btn btn-large btn-primary" type="button">Create
+							and Share</button>
+						<input type="hidden" id="imgdata" name="imgdata">
+					</p>
+				</form>
+			</div>
+
+
+					</div>
+
+		<div class="colDer">
+		<div id="memestage"></div>
+
+			
+		</div>
+
+    </div>
+
+
+</body>
+</html>

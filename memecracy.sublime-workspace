@@ -1,0 +1,502 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Score",
+				"ScoreScript"
+			],
+			[
+				"Vec",
+				"Vector3	x, y, z"
+			],
+			[
+				"Re",
+				"Recycle"
+			],
+			[
+				"TRa",
+				"Transform"
+			],
+			[
+				"Tr",
+				"Transform"
+			],
+			[
+				"Vect",
+				"Vector3	x, y, z"
+			],
+			[
+				"se",
+				"secondsToDegrees"
+			],
+			[
+				"minu",
+				"minutesToDegrees"
+			],
+			[
+				"minutes",
+				"minutes"
+			],
+			[
+				"cu",
+				"currentTime"
+			],
+			[
+				"my",
+				"myTempForecast"
+			],
+			[
+				"fore",
+				"forecastTemp"
+			],
+			[
+				"ge",
+				"getWeaterApi"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"curre",
+				"currentTime"
+			],
+			[
+				"c",
+				"currentTemp"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"file",
+				"files"
+			],
+			[
+				"form",
+				"formidable"
+			],
+			[
+				"for",
+				"formidable"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"pos",
+				"postData"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"thi",
+				"thingToSpin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html>\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <title>Memecracy</title>\n    <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" />\n    <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"scripts/jquery.parallax-1.1.3.js\"></script>\n    <script type=\"text/javascript\" src=\"scripts/jquery.localscroll-1.2.7-min.js\"></script>\n    <script type=\"text/javascript\" src=\"scripts/jquery.scrollTo-1.4.2-min.js\"></script>\n\n    <script type=\"text/javascript\" src=\"scripts/jquery.sticky.js\"></script>\n  <script>\n    $(window).load(function(){\n      $(\"#header\").sticky({ topSpacing: 0 });\n    });\n  </script>\n<style>\n    body {\n      height: 10000px;\n      padding: 0;\n      margin: 0;\n    }\n\n  </style>\n\n    <script type=\"text/javascript\">\n    $(document).ready(function() {\n        $('#nav').localScroll(800);\n\n        //.parallax(xPosition, speedFactor, outerHeight) options:\n        //xPosition - Horizontal position of the element\n        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling\n        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport\n        $('#intro').parallax(\"50%\", 0.1);\n        $('#second').parallax(\"50%\", 0.1);\n        $('.bg').parallax(\"50%\", 0.4);\n       $('#third').parallax(\"50%\", 0.3 );\n\n    })\n    </script>\n</head>\n\n<body>\n  <div id=\"header\">\n    <div id=\"intro\">\n                <h2>MEMECRACY</h2>\n                <p>Que no pongan palabras en ti, pon tus propias palabras… y difúndelas.</p>\n\n    </div>\n    <!--#intro-->\n  </div>\n\n    <ul id=\"nav\">\n        <li>\n            <a href=\"#intro\" title=\"Next Section\">\n                <img src=\"images/dot.png\" alt=\"Link\" />\n            </a>\n        </li>\n        <li>\n            <a href=\"#second\" title=\"Next Section\">\n                <img src=\"images/dot.png\" alt=\"Link\" />\n            </a>\n        </li>\n        <li>\n            <a href=\"#third\" title=\"Next Section\">\n                <img src=\"images/dot.png\" alt=\"Link\" />\n            </a>\n        </li>\n        <li>\n            <a href=\"#fifth\" title=\"Next Section\">\n                <img src=\"images/dot.png\" alt=\"Link\" />\n            </a>\n        </li>\n    </ul>\n\n    \n\n    <div id=\"second\">\n        <div class=\"story\">\n        </div>\n        <!--.story-->\n\n    </div>\n    <!--#second-->\n\n  \n\n    <div id=\"fifth\">\n        <div class=\"story\">\n                <h2>MEMECRACY</h2>\n                <p>La propaganda politica está llena de mensajes prefabricados que pretenden representarnos.\nFrases, ideologías y declaraciones envasadas que intentan reflejar nuestros pensamientos y necesidades manifestándose en afiches, lienzos y pantallas que invaden nuestro entorno intentando convencernos de que estamos siendo representados.\nHistoricamente ha sido así… pero hoy nos podemos permitir declarar nuestra propia propaganda.\n\nMEMECRACY invierte el modelo, dejándolo en manos de la opinion pública.\nMEMECRACY es la voz del pueblo hacia sus candidatos a la presidencia.\nMEMECRACY te recuerda que ellos gobiernan para nosotros y gracias a nosotros\n\nQue no pongan palabras en ti, pon tus propias palabras… y difúndela.\nPower to the people!\n</p>\n    </div>\n        <!--.story-->\n    </div>\n    <!--#fifth-->\n</body>\n\n</html>",
+			"file": "static/index.html",
+			"file_size": 3523,
+			"file_write_time": 1385871072000000,
+			"settings":
+			{
+				"buffer_size": 3471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sergiomajluf/Downloads/garand-sticky-c199302/example-header.html",
+			"settings":
+			{
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/style.css",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"templ",
+				"Create file from Template"
+			],
+			[
+				"ardu",
+				"Set Syntax: Arduino"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"foi",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"colo",
+				"Snippet: Color(r, g, b, a)"
+			],
+			[
+				"uni",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"root",
+				"Snippet: Prototype"
+			],
+			[
+				"temp",
+				"Create file from Template"
+			],
+			[
+				"syntax",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"s",
+				"Set Syntax: JSON"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"POack",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Set",
+				"Set Syntax: C#"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sergiomajluf/Downloads/ballot.xml",
+		"/Users/sergiomajluf/Dropbox/Arduino/MPU6050/MPU6050.ino",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/scripts/CubeClicker.cs",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/scripts/ScoreScript.cs",
+		"/Users/sergiomajluf/Dropbox/Arduino/MPU6050/MPU6050.h",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/scripts/SphereLogic.cs",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Materials/CubeClicker.cs",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Materials/SphereLogic.cs",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Materials/sphereLogic.cs",
+		"/Users/sergiomajluf/Sites/lab/mongodb-tutorial/userProvider-mongodb.js",
+		"/Users/sergiomajluf/Sites/lab/mongodb-tutorial/package.json",
+		"/Users/sergiomajluf/Sites/lab/mongodb-tutorial/app.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/app.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/Procfile",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/temperature.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/app-local.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/time.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/temp-monitor.sublime-project",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/package.json",
+		"/Users/sergiomajluf/Sites/lab/node/server.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/server.js",
+		"/Users/sergiomajluf/Sites/lab/temp-monitor/arduino/forever_connect/forever_connect.ino",
+		"/Users/sergiomajluf/Sites/lab/node-tutorial/views/helloworld.jade",
+		"/Users/sergiomajluf/Sites/lab/node-tutorial/views/index.jade",
+		"/Users/sergiomajluf/Sites/lab/node-tutorial/routes/index.js",
+		"/Users/sergiomajluf/Sites/lab/node-tutorial/app.js",
+		"/Users/sergiomajluf/Sites/hello-world/package.json",
+		"/Users/sergiomajluf/Sites/temperature-monitor/server.js",
+		"/Users/sergiomajluf/Sites/hello-world/server.js",
+		"/Users/sergiomajluf/Sites/lab/node-session/socket/arduino/arduino.html",
+		"/Users/sergiomajluf/Sites/lab/node/index.js",
+		"/Users/sergiomajluf/Sites/lab/google/data.csv",
+		"/Users/sergiomajluf/Sites/lab/node/router.js",
+		"/Users/sergiomajluf/Sites/lab/node/requestHandlers.js",
+		"/Users/sergiomajluf/Sites/lab/google/donut-d3.html",
+		"/Users/sergiomajluf/Sites/lab/expanse/readme.md",
+		"/Users/sergiomajluf/Sites/lab/node/fileServer.js",
+		"/Users/sergiomajluf/Sites/lab/node/helloworld.js",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/C#/Build.tmLanguage",
+		"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Webcam.cs",
+		"/Users/sergiomajluf/Downloads/piconnect_03.py",
+		"/Users/sergiomajluf/Sites/santiagoamil.cl/wp-content/themes/stgoamil2013/wp-advanced-search-master/README.md",
+		"/Users/sergiomajluf/Sites/santiagoamil.cl/wp-content/themes/stgoamil2013/category-encuentros-de-trasnoche-2013.php",
+		"/Users/sergiomajluf/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#",
+			"#ping"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "static/index.html",
+					"settings":
+					{
+						"buffer_size": 3471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/sergiomajluf/Downloads/garand-sticky-c199302/example-header.html",
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/style.css",
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1564,
+								1564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1163.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"open",
+				"/Users/sergiomajluf/Documents/UnityProjects/Begginer/Assets/Scenes/04-scripts-and-objects.unity"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}
