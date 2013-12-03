@@ -31,9 +31,8 @@ Meme Maker, Copyright Devadutta Ghat, 2012
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
-
-    <?php include_once("navbar.php"); ?>
+<body>
+<?php include_once("navbar.php"); ?>
     <div class="container">
 	<h1>Recent Memes</h1>
   

@@ -27,8 +27,7 @@
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
-
+<body>
 <?php include_once("navbar.php"); 
 if(!$enableCustomUpload) { die("Upload function not enabled"); }
 ?>
