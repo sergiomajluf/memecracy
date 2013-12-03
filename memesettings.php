@@ -40,6 +40,6 @@ $dbpass  = '9229d5dd';
 $dbname  = 'heroku_7e13ead7bedd1a3';
 
 // Your MySQL DB Host
-$dbhost  = 'getenv("CLEARDB_DATABASE_URL")';
+$dbhost  = 'us-cdbr-east-04.cleardb.com';
 
 ?>
