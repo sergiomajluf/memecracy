@@ -272,7 +272,7 @@ $(function() {
 		gblFontSize = 7;
 		gblFontFamily = "Arial";
 		gblStrokeWidth = 0;
-		addText(watermark,bgImage.width - getTextWidth(watermark)  ,bgImage.height - 0 -getSimpleTextHeight() + 0);
+		addText(watermark,bgImage.width - getTextWidth(watermark)  ,bgImage.height  - getSimpleTextHeight() - 5);
 		//addText(watermark,100,100);
 		
 		stage.toDataURL({
