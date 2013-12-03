@@ -81,9 +81,9 @@ Frases, ideologías y declaraciones envasadas invaden nuestro entorno intentando
             <li>MEMECRACY es la voz del pueblo hacia sus candidatos a la presidencia.</li>
             <li>MEMECRACY te recuerda que ellos gobiernan para nosotros y gracias a nosotros.</li>
         </ul>
-        <p>Que no pongan palabras en tu boca, pon tus propias palabras… y difúndela.
-Bienvenidos a la MEMECRACIA, Power to the people!</p>
     </div>
+    <p>Que no pongan palabras en tu boca, pon tus propias palabras… y difúndela.<br />
+<strong>Bienvenidos a la MEMECRACIA, Power to the people!</strong></p>
     </div>
 <a href="http://www.terrorista.co" title="Un proyecto TERRORISTA" class="terroristaLink">Un proyecto TERRORISTA</a>
 

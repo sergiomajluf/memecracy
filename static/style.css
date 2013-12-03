@@ -166,7 +166,11 @@ body#popular #popularMemes {
 	width: 870px;
 	margin: 0 auto;
 }
-
+.story p {
+	text-align: center;
+}
+.story p strong{
+	text-transform: uppercase;}
 #acerca a.terroristaLink {
 	display: block;
 	position: relative;
@@ -183,10 +187,13 @@ body#popular #popularMemes {
 	border-right: 3px solid #fff;
 	margin: 0 0px 0 0;
 	padding: 0 35px 0 0;
-	height: 270px;
+	height: 200px;
 	vertical-align: text-top;
 }
 
+.colIzq p {
+	text-align: left;
+}
 .colDer {
 	display: inline-block;
 	width: 400px;
