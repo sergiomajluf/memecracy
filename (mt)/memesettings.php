@@ -31,13 +31,13 @@ $dbtable = 'meme_maker_ratings';
 // Database Settings
 
 // Your MySQL Database username
-$dbuname = "db60114";
+$dbuname = "USERNAME";
 
 // Your MySQL DB Password
-$dbpass  = 'IdQUZaDh';
+$dbpass  = 'PASSWORD';
 
 // Your MySQL DB Name
-$dbname  = 'db60114_memecracy';
+$dbname  = 'DB_NAME';
 
 // Your MySQL DB Host
 $dbhost  = $_ENV{DATABASE_SERVER};
